@@ -235,11 +235,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementSpeed: 10
   jumpHeight: 3
+  dashSpeed: 30
+  dashDuration: 0.2
+  dashCooldown: 1
   groundCheck: {fileID: 513761912}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
   groundCheckRadius: 0.1
+  maxJumps: 1
   coyoteTime: 0.3
   jumpBufferTime: 0.2
 --- !u!114 &12212168
@@ -10743,7 +10747,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
+  m_BackGroundColor: {r: 0.21226415, g: 0.67607415, b: 0.8490566, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
